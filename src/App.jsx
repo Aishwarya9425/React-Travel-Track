@@ -9,7 +9,7 @@ import CityList from "./components/CityList";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [cities, setCities] = useState({});
+  const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
   const BASE_URL = "http://localhost:9000";
