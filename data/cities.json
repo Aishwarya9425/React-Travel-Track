@@ -1,38 +1,38 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
+      "cityName": "Bengaluru",
+      "country": "India",
+      "emoji": "🇮🇳",
       "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "notes": "My home💖",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": 12.927932376709387,
+        "lng": 77.55401909163476
       },
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
+      "cityName": "Oslo",
+      "country": "Norway",
+      "emoji": "🇳🇴",
       "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "notes": "Experienced Magical northern lights here🤩",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": 59.911491,
+        "lng": 10.757933
       },
       "id": 17806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
+      "cityName": "San Jose",
+      "country": "United States",
+      "emoji": "🇺🇸",
       "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "notes": "Silicon Valley👩‍💻",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": 37.342205,
+        "lng": -121.85199
       },
       "id": 98443197
     }
