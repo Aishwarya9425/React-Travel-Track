@@ -10,6 +10,8 @@ import {
 } from "react-leaflet";
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
+import { useGeolocation } from "../hooks/useGeolocation";
+import Button from "./Button";
 
 const flagemojiToPNG = (flag) => {
   var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
@@ -21,6 +23,11 @@ const flagemojiToPNG = (flag) => {
 };
 
 function Map() {
+  const {
+    isLoading: isLoadingPosition,
+    position: geolocationPosition,
+    getPosition,
+  } = useGeolocation();
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([12.9716, 77.5946]);
   const [searchParams, setSearchParams] = useSearchParams();
@@ -34,9 +41,24 @@ function Map() {
     [lat, lng]
   );
 
+  useEffect(
+    function () {
+      if (geolocationPosition)
+        setMapPosition([geolocationPosition.lat, geolocationPosition.lng]);
+    },
+    [geolocationPosition]
+  );
+
   // when user clicks somewhere on the map it should redirect to form comp to add the city
   return (
     <div className={styles.mapContainer}>
+      {!geolocationPosition && (
+        <Button type="position" onClick={getPosition}>
+          {isLoadingPosition
+            ? "Loading..."
+            : "Click here to get your current position"}
+        </Button>
+      )}
       {/* React leafletmap */}
       <MapContainer
         center={mapPosition}
