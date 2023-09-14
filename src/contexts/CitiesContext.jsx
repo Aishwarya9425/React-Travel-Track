@@ -40,6 +40,32 @@ function CitiesProvider({ children }) {
     }
   }
 
+  //create new city
+  //get current selected city
+  async function createCity(newCity) {
+    try {
+      setIsLoading(true);
+      //post request
+      const res = await fetch(`${BASE_URL}/cities`, {
+        method: "POST",
+        body: JSON.stringify(newCity),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const data = await res.json();
+      console.log("newCity", data);
+
+      setCities((cities) => [...cities, data]);
+      //setCurrentCity
+      console.log(data.emoji);
+    } catch {
+      alert("Error fetching data");
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
   console.log("inside citiesContext");
   console.log(cities, isLoading, currentCity);
 
@@ -50,6 +76,7 @@ function CitiesProvider({ children }) {
         isLoading,
         currentCity,
         getCity,
+        createCity,
       }}
     >
       {children}

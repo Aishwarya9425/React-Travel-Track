@@ -35,6 +35,42 @@
         "lng": -121.85199
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Puducherry",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "notes": "my first solo trip😍😍",
+      "date": "2023-09-14T15:49:41.065Z",
+      "position": {
+        "lat": "11.929918017751785",
+        "lng": "79.82460021972658"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Hokuto",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "notes": "Japan !!!",
+      "date": "2023-09-14T15:50:21.710Z",
+      "position": {
+        "lat": "35.747962366223824",
+        "lng": "138.33984375000003"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Sao Jose do Xingu",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "notes": "south americaaaa",
+      "date": "2023-09-14T15:50:59.846Z",
+      "position": {
+        "lat": "-10.724777330701802",
+        "lng": "-52.99804687500001"
+      },
+      "id": 98443200
     }
   ]
 }
