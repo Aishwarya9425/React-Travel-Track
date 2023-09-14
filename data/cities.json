@@ -47,42 +47,6 @@
         "lng": "79.82460021972658"
       },
       "id": 98443198
-    },
-    {
-      "cityName": "Hokuto",
-      "country": "Japan",
-      "emoji": "🇯🇵",
-      "notes": "Japan !!!",
-      "date": "2023-09-14T15:50:21.710Z",
-      "position": {
-        "lat": "35.747962366223824",
-        "lng": "138.33984375000003"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Sao Jose do Xingu",
-      "country": "Brazil",
-      "emoji": "🇧🇷",
-      "notes": "south americaaaa",
-      "date": "2023-09-14T15:50:59.846Z",
-      "position": {
-        "lat": "-10.724777330701802",
-        "lng": "-52.99804687500001"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Hailey-Bellevue",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "notes": "usa trip",
-      "date": "2023-09-14T15:55:27.366Z",
-      "position": {
-        "lat": "43.58224053773334",
-        "lng": "-114.12597656250001"
-      },
-      "id": 98443201
     }
   ]
 }
