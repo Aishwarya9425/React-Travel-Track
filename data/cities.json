@@ -37,16 +37,40 @@
       "id": 98443197
     },
     {
-      "cityName": "Puducherry",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "notes": "my first solo trip😍😍",
-      "date": "2023-09-14T15:49:41.065Z",
+      "cityName": "Dimbulagala",
+      "country": "Sri Lanka",
+      "emoji": "🇱🇰",
+      "notes": "sri lankaaa",
+      "date": "2023-09-15T08:46:59.224Z",
       "position": {
-        "lat": "11.929918017751785",
-        "lng": "79.82460021972658"
+        "lat": "7.8090430452055974",
+        "lng": "81.12304687500001"
       },
       "id": 98443198
+    },
+    {
+      "cityName": "Renapur",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "notes": "asdsddas",
+      "date": "2023-09-15T08:52:19.326Z",
+      "position": {
+        "lat": "18.563301363681916",
+        "lng": "76.46484375000001"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Kunnatnad",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "notes": "keralaa",
+      "date": "2023-09-15T08:58:40.790Z",
+      "position": {
+        "lat": "10.01885239444321",
+        "lng": "76.46484375000001"
+      },
+      "id": 98443200
     }
   ]
 }

@@ -14,7 +14,6 @@ function CountriesList() {
       <Message message="Add your first city by clicking on a city on the map" />
     );
 
-  console.log("cities", cities);
   //remove duplicate countries
   const countriesUnique = new Set(
     cities.map((city) =>
@@ -26,7 +25,6 @@ function CountriesList() {
     )
   );
   const countries = [...countriesUnique].map((each) => JSON.parse(each));
-  console.log("countries", countries);
 
   return (
     <ul className={styles.countryList}>

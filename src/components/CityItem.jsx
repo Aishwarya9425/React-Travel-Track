@@ -22,9 +22,7 @@ const flagemojiToPNG = (flag) => {
 
 function CityItem({ city }) {
   const { currentCity, deleteCity } = useCities();
-  console.log(city);
   const { cityName, emoji, date, id, position } = city;
-  console.log(position);
 
   function handleDeleteCity(e) {
     e.preventDefault(); //doesnt redirect ,removes link

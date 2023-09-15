@@ -58,7 +58,6 @@ function Form() {
             `${REVERSE_GEOCODING_URL}latitude=${lat}&longitude=${lng}`
           );
           const data = await res.json();
-          console.log("REVERSE_GEOCODING", data);
 
           if (!data.city || !data.countryCode)
             throw new Error(
@@ -69,7 +68,6 @@ function Form() {
           setEmoji(flagemojiToPNG(convertToEmoji(data.countryCode)));
           setCountryCode(data.countryCode);
         } catch (err) {
-          console.log(err);
           setGeoCodingError(err.message);
         } finally {
           setIsLoadingGeocoding(false);
@@ -81,7 +79,6 @@ function Form() {
   ); //for every lat lng change - re render
 
   async function handleSubmit(e) {
-    console.log("event", e);
     e.preventDefault();
     if (!cityName || !date) return;
 
@@ -95,7 +92,6 @@ function Form() {
       position: { lat, lng },
     };
 
-    console.log("newCity", newCity);
     await createCity(newCity);
     //wait for the async func createCity to finsh and then navigate to cities
     navigate("/app/cities");
