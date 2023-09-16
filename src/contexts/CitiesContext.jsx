@@ -8,7 +8,7 @@ import {
 
 const CitiesContext = createContext();
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://json-server-react-travel-track.vercel.app";
 
 const initialState = {
   cities: [],
