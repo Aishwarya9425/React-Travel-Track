@@ -1,14 +1,14 @@
-.product {
+.pricing {
   margin: 2.5rem;
   padding: 2.5rem 5rem;
   min-height: calc(100vh - 5rem);
-  background-image: url("img-1.jpg");
+  background-image: url("img-2.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.product section {
+.pricing section {
   width: clamp(80rem, 80%, 90rem);
   margin: 6rem auto;
   display: grid;
@@ -17,24 +17,24 @@
   align-items: center;
 }
 
-.product img {
+.pricing img {
   width: 100%;
 }
 
-.product h2 {
-  font-size: 4rem;
+.pricing h2 {
+  font-size: 6rem;
   line-height: 1.2;
   margin-bottom: 3rem;
-  color: black;
+  color: rgb(198, 226, 43);
 }
 
-.product p {
+.pricing p {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: black;
   font-weight: bolder;
 }
 
-.product section a {
+.pricing section a {
   margin-top: 2rem;
 }
