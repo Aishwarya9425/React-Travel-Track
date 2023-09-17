@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "server": "json-server --watch data/cities.json --port 9000 --delay 500"
+    "preview": "vite preview"
   },
   "dependencies": {
     "eslint-config-react-app": "^7.0.1",
