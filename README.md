@@ -1,5 +1,9 @@
 # React + Vite
 
+error: erofs: read-only file system, open 'db.json' vercel
+
+500 internal server error while creating new and deleting city
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
