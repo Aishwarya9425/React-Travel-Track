@@ -2,7 +2,7 @@
   margin: 2.5rem;
   padding: 2.5rem 5rem;
   min-height: calc(100vh - 5rem);
-  background-image: url("img-2.jpg");
+  background-image: url("https://img2.wallspic.com/crops/7/8/0/1/7/171087/171087-nature-mountain-water-tourism-tree-3840x2160.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -31,7 +31,7 @@
 .pricing p {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: black;
+  color: white;
   font-weight: bolder;
 }
 

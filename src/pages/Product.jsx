@@ -6,11 +6,7 @@ export default function Product() {
     <main className={styles.product}>
       <PageNav />
       <section>
-        <img
-          src="img-1.jpg"
-          alt="person with dog overlooking mountain with sunset"
-        />
-        <div>
+           <div>
           <h2>About TravelTrack</h2>
           <p>
             Track My Journey app will track and save every trip you make,

@@ -2,7 +2,7 @@
   margin: 2.5rem;
   padding: 2.5rem 5rem;
   min-height: calc(100vh - 5rem);
-  background-image: url("img-1.jpg");
+  background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2017/12/Travel-Plan.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
