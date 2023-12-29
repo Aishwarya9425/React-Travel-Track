@@ -1,5 +1,8 @@
 # React + Vite
 
+  email: "aish@example.com"
+  password: "simple123"
+  
 error: erofs: read-only file system, open 'db.json' vercel
 
 500 internal server error while creating new and deleting city
