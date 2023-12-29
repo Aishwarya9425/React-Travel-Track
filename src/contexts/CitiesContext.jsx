@@ -8,7 +8,8 @@ import {
 
 const CitiesContext = createContext();
 
-const BASE_URL = "https://json-server-react-travel-track.vercel.app";
+const BASE_URL =
+  "https://json-server-react-travel-track-lkda92k3f-aishwarya9425.vercel.app";
 
 const initialState = {
   cities: [],
@@ -64,7 +65,9 @@ function CitiesProvider({ children }) {
     async function fetchCities() {
       dispatch({ type: "loading" });
       try {
-        const res = await fetch("https://json-server-react-travel-track.vercel.app/cities");
+        const res = await fetch(
+          "https://json-server-react-travel-track-lkda92k3f-aishwarya9425.vercel.app/cities"
+        );
         const data = await res.json();
         dispatch({ type: "cities/loaded", payload: data });
       } catch {
@@ -83,7 +86,9 @@ function CitiesProvider({ children }) {
       if (Number(id) === currentCity.id) return;
       dispatch({ type: "loading" });
       try {
-        const res = await fetch(`https://json-server-react-travel-track.vercel.app/cities/${id}`);
+        const res = await fetch(
+          `https://json-server-react-travel-track-lkda92k3f-aishwarya9425.vercel.app/cities/${id}`
+        );
         const data = await res.json();
         dispatch({ type: "city/loaded", payload: data });
       } catch {
@@ -102,13 +107,16 @@ function CitiesProvider({ children }) {
     dispatch({ type: "loading" });
     try {
       //post request
-      const res = await fetch("https://json-server-react-travel-track.vercel.app/cities", {
-        method: "POST",
-        body: JSON.stringify(newCity),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const res = await fetch(
+        "https://json-server-react-travel-track-lkda92k3f-aishwarya9425.vercel.app/cities",
+        {
+          method: "POST",
+          body: JSON.stringify(newCity),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
       const data = await res.json();
 
       dispatch({ type: "city/created", payload: data });
@@ -126,9 +134,12 @@ function CitiesProvider({ children }) {
     try {
       true;
       //DELETE request
-      await fetch(`https://json-server-react-travel-track.vercel.app/cities/${id}`, {
-        method: "DELETE",
-      });
+      await fetch(
+        `https://json-server-react-travel-track-lkda92k3f-aishwarya9425.vercel.app/cities/${id}`,
+        {
+          method: "DELETE",
+        }
+      );
       dispatch({ type: "city/deleted", payload: id });
     } catch {
       dispatch({
